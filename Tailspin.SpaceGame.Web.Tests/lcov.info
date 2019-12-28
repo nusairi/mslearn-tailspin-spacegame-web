@@ -1,0 +1,737 @@
+SF:C:\projects\Az-400\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\LocalDocumentDBRepository.cs
+FN:37,System.Threading.Tasks.Task`1<T> TailSpin.SpaceGame.Web.LocalDocumentDBRepository`1::GetItemAsync(System.String)
+FNDA:0,System.Threading.Tasks.Task`1<T> TailSpin.SpaceGame.Web.LocalDocumentDBRepository`1::GetItemAsync(System.String)
+DA:38,0
+DA:39,0
+DA:40,0
+FN:58,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<T>> TailSpin.SpaceGame.Web.LocalDocumentDBRepository`1::GetItemsAsync(System.Linq.Expressions.Expression`1<System.Func`2<T,System.Boolean>>,System.Linq.Expressions.Expression`1<System.Func`2<T,System.Int32>>,System.Int32,System.Int32)
+FNDA:5,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<T>> TailSpin.SpaceGame.Web.LocalDocumentDBRepository`1::GetItemsAsync(System.Linq.Expressions.Expression`1<System.Func`2<T,System.Boolean>>,System.Linq.Expressions.Expression`1<System.Func`2<T,System.Int32>>,System.Int32,System.Int32)
+DA:59,5
+DA:60,5
+DA:61,5
+DA:62,5
+DA:63,5
+DA:64,5
+DA:65,5
+DA:67,5
+DA:68,5
+FN:78,System.Threading.Tasks.Task`1<System.Int32> TailSpin.SpaceGame.Web.LocalDocumentDBRepository`1::CountItemsAsync(System.Linq.Expressions.Expression`1<System.Func`2<T,System.Boolean>>)
+FNDA:0,System.Threading.Tasks.Task`1<System.Int32> TailSpin.SpaceGame.Web.LocalDocumentDBRepository`1::CountItemsAsync(System.Linq.Expressions.Expression`1<System.Func`2<T,System.Boolean>>)
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:84,0
+DA:85,0
+FN:16,System.Void TailSpin.SpaceGame.Web.LocalDocumentDBRepository`1::.ctor(System.String)
+FNDA:0,System.Void TailSpin.SpaceGame.Web.LocalDocumentDBRepository`1::.ctor(System.String)
+DA:17,0
+DA:18,0
+DA:20,0
+DA:21,0
+FN:22,System.Void TailSpin.SpaceGame.Web.LocalDocumentDBRepository`1::.ctor(System.IO.Stream)
+FNDA:5,System.Void TailSpin.SpaceGame.Web.LocalDocumentDBRepository`1::.ctor(System.IO.Stream)
+DA:23,5
+DA:24,5
+DA:26,5
+DA:27,5
+LF:26
+LH:13
+BRF:0
+BRH:0
+FNF:5
+FNH:2
+end_of_record
+SF:C:\projects\Az-400\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Program.cs
+FN:8,System.Void TailSpin.SpaceGame.Web.Program::Main(System.String[])
+FNDA:0,System.Void TailSpin.SpaceGame.Web.Program::Main(System.String[])
+DA:9,0
+DA:10,0
+DA:11,0
+FN:13,Microsoft.AspNetCore.Hosting.IWebHostBuilder TailSpin.SpaceGame.Web.Program::CreateWebHostBuilder(System.String[])
+FNDA:0,Microsoft.AspNetCore.Hosting.IWebHostBuilder TailSpin.SpaceGame.Web.Program::CreateWebHostBuilder(System.String[])
+DA:14,0
+DA:15,0
+LF:5
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\projects\Az-400\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Startup.cs
+FN:17,Microsoft.Extensions.Configuration.IConfiguration TailSpin.SpaceGame.Web.Startup::get_Configuration()
+FNDA:0,Microsoft.Extensions.Configuration.IConfiguration TailSpin.SpaceGame.Web.Startup::get_Configuration()
+DA:18,0
+FN:21,System.Void TailSpin.SpaceGame.Web.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+FNDA:0,System.Void TailSpin.SpaceGame.Web.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:30,0
+DA:33,0
+DA:34,0
+DA:35,0
+BRDA:23,8,0,0
+BRDA:23,8,1,0
+FN:38,System.Void TailSpin.SpaceGame.Web.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)
+FNDA:0,System.Void TailSpin.SpaceGame.Web.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+BRDA:40,9,0,0
+BRDA:40,9,1,0
+BRDA:54,71,0,0
+BRDA:54,71,1,0
+FN:12,System.Void TailSpin.SpaceGame.Web.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)
+FNDA:0,System.Void TailSpin.SpaceGame.Web.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+LF:35
+LH:0
+BRF:8
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:C:\projects\Az-400\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Models\ErrorViewModel.cs
+FN:4,System.String TailSpin.SpaceGame.Web.Models.ErrorViewModel::get_RequestId()
+FNDA:0,System.String TailSpin.SpaceGame.Web.Models.ErrorViewModel::get_RequestId()
+DA:5,0
+FN:6,System.Boolean TailSpin.SpaceGame.Web.Models.ErrorViewModel::get_ShowRequestId()
+FNDA:0,System.Boolean TailSpin.SpaceGame.Web.Models.ErrorViewModel::get_ShowRequestId()
+DA:7,0
+LF:2
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\projects\Az-400\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Models\LeaderboardViewModel.cs
+FN:7,System.String TailSpin.SpaceGame.Web.Models.LeaderboardViewModel::get_SelectedMode()
+FNDA:0,System.String TailSpin.SpaceGame.Web.Models.LeaderboardViewModel::get_SelectedMode()
+DA:8,0
+FN:9,System.String TailSpin.SpaceGame.Web.Models.LeaderboardViewModel::get_SelectedRegion()
+FNDA:0,System.String TailSpin.SpaceGame.Web.Models.LeaderboardViewModel::get_SelectedRegion()
+DA:10,0
+FN:11,System.Int32 TailSpin.SpaceGame.Web.Models.LeaderboardViewModel::get_Page()
+FNDA:0,System.Int32 TailSpin.SpaceGame.Web.Models.LeaderboardViewModel::get_Page()
+DA:12,0
+FN:13,System.Int32 TailSpin.SpaceGame.Web.Models.LeaderboardViewModel::get_PageSize()
+FNDA:0,System.Int32 TailSpin.SpaceGame.Web.Models.LeaderboardViewModel::get_PageSize()
+DA:14,0
+FN:16,System.Collections.Generic.IEnumerable`1<TailSpin.SpaceGame.Web.Models.ScoreProfile> TailSpin.SpaceGame.Web.Models.LeaderboardViewModel::get_Scores()
+FNDA:0,System.Collections.Generic.IEnumerable`1<TailSpin.SpaceGame.Web.Models.ScoreProfile> TailSpin.SpaceGame.Web.Models.LeaderboardViewModel::get_Scores()
+DA:17,0
+FN:18,System.Collections.Generic.IEnumerable`1<System.String> TailSpin.SpaceGame.Web.Models.LeaderboardViewModel::get_GameModes()
+FNDA:0,System.Collections.Generic.IEnumerable`1<System.String> TailSpin.SpaceGame.Web.Models.LeaderboardViewModel::get_GameModes()
+DA:19,0
+FN:20,System.Collections.Generic.IEnumerable`1<System.String> TailSpin.SpaceGame.Web.Models.LeaderboardViewModel::get_GameRegions()
+FNDA:0,System.Collections.Generic.IEnumerable`1<System.String> TailSpin.SpaceGame.Web.Models.LeaderboardViewModel::get_GameRegions()
+DA:21,0
+FN:24,System.String TailSpin.SpaceGame.Web.Models.LeaderboardViewModel::get_PrevLink()
+FNDA:0,System.String TailSpin.SpaceGame.Web.Models.LeaderboardViewModel::get_PrevLink()
+DA:25,0
+FN:27,System.String TailSpin.SpaceGame.Web.Models.LeaderboardViewModel::get_NextLink()
+FNDA:0,System.String TailSpin.SpaceGame.Web.Models.LeaderboardViewModel::get_NextLink()
+DA:28,0
+FN:29,System.Int32 TailSpin.SpaceGame.Web.Models.LeaderboardViewModel::get_TotalResults()
+FNDA:0,System.Int32 TailSpin.SpaceGame.Web.Models.LeaderboardViewModel::get_TotalResults()
+DA:30,0
+LF:10
+LH:0
+BRF:0
+BRH:0
+FNF:10
+FNH:0
+end_of_record
+SF:C:\projects\Az-400\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Models\Model.cs
+FN:11,System.String TailSpin.SpaceGame.Web.Models.Model::get_Id()
+FNDA:125,System.String TailSpin.SpaceGame.Web.Models.Model::get_Id()
+DA:12,125
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:C:\projects\Az-400\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Models\Profile.cs
+FN:8,System.String TailSpin.SpaceGame.Web.Models.Profile::get_UserName()
+FNDA:0,System.String TailSpin.SpaceGame.Web.Models.Profile::get_UserName()
+DA:9,0
+FN:12,System.String TailSpin.SpaceGame.Web.Models.Profile::get_AvatarUrl()
+FNDA:0,System.String TailSpin.SpaceGame.Web.Models.Profile::get_AvatarUrl()
+DA:13,0
+FN:16,System.String[] TailSpin.SpaceGame.Web.Models.Profile::get_Achievements()
+FNDA:0,System.String[] TailSpin.SpaceGame.Web.Models.Profile::get_Achievements()
+DA:17,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:C:\projects\Az-400\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Models\Score.cs
+FN:8,System.String TailSpin.SpaceGame.Web.Models.Score::get_ProfileId()
+FNDA:125,System.String TailSpin.SpaceGame.Web.Models.Score::get_ProfileId()
+DA:9,125
+FN:12,System.Int32 TailSpin.SpaceGame.Web.Models.Score::get_HighScore()
+FNDA:125,System.Int32 TailSpin.SpaceGame.Web.Models.Score::get_HighScore()
+DA:13,125
+FN:16,System.String TailSpin.SpaceGame.Web.Models.Score::get_GameMode()
+FNDA:125,System.String TailSpin.SpaceGame.Web.Models.Score::get_GameMode()
+DA:17,125
+FN:20,System.String TailSpin.SpaceGame.Web.Models.Score::get_GameRegion()
+FNDA:271,System.String TailSpin.SpaceGame.Web.Models.Score::get_GameRegion()
+DA:21,271
+LF:4
+LH:4
+BRF:0
+BRH:0
+FNF:4
+FNH:4
+end_of_record
+SF:C:\projects\Az-400\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Controllers\HomeController.cs
+FN:128,Microsoft.AspNetCore.Mvc.IActionResult TailSpin.SpaceGame.Web.Controllers.HomeController::Privacy()
+FNDA:0,Microsoft.AspNetCore.Mvc.IActionResult TailSpin.SpaceGame.Web.Controllers.HomeController::Privacy()
+DA:129,0
+DA:130,0
+DA:131,0
+FN:134,Microsoft.AspNetCore.Mvc.IActionResult TailSpin.SpaceGame.Web.Controllers.HomeController::Error()
+FNDA:0,Microsoft.AspNetCore.Mvc.IActionResult TailSpin.SpaceGame.Web.Controllers.HomeController::Error()
+DA:135,0
+DA:136,0
+DA:137,0
+BRDA:136,14,0,0
+BRDA:136,14,1,0
+BRDA:136,26,0,0
+BRDA:136,26,1,0
+FN:18,System.Void TailSpin.SpaceGame.Web.Controllers.HomeController::.ctor(TailSpin.SpaceGame.Web.IDocumentDBRepository`1<TailSpin.SpaceGame.Web.Models.Score>,TailSpin.SpaceGame.Web.IDocumentDBRepository`1<TailSpin.SpaceGame.Web.Models.Profile>)
+FNDA:0,System.Void TailSpin.SpaceGame.Web.Controllers.HomeController::.ctor(TailSpin.SpaceGame.Web.IDocumentDBRepository`1<TailSpin.SpaceGame.Web.Models.Score>,TailSpin.SpaceGame.Web.IDocumentDBRepository`1<TailSpin.SpaceGame.Web.Models.Profile>)
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+FN:103,TailSpin.SpaceGame.Web.Models.ScoreProfile TailSpin.SpaceGame.Web.Controllers.HomeController/<>c::<Index>b__3_1(TailSpin.SpaceGame.Web.Models.Score,System.Threading.Tasks.Task`1<TailSpin.SpaceGame.Web.Models.Profile>)
+FNDA:0,TailSpin.SpaceGame.Web.Models.ScoreProfile TailSpin.SpaceGame.Web.Controllers.HomeController/<>c::<Index>b__3_1(TailSpin.SpaceGame.Web.Models.Score,System.Threading.Tasks.Task`1<TailSpin.SpaceGame.Web.Models.Profile>)
+DA:104,0
+FN:33,System.Void TailSpin.SpaceGame.Web.Controllers.HomeController/<Index>d__3::MoveNext()
+FNDA:0,System.Void TailSpin.SpaceGame.Web.Controllers.HomeController/<Index>d__3::MoveNext()
+DA:34,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:61,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:71,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:82,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:106,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:112,0
+BRDA:36,259,0,0
+BRDA:36,265,0,0
+BRDA:74,727,0,0
+BRDA:36,259,1,0
+BRDA:74,727,1,0
+BRDA:82,861,0,0
+BRDA:36,265,1,0
+BRDA:82,861,1,0
+BRDA:85,984,0,0
+BRDA:85,984,1,0
+BRDA:89,1104,0,0
+BRDA:89,1104,1,0
+BRDA:97,1301,1,0
+BRDA:97,1301,0,0
+BRDA:104,1382,0,0
+BRDA:104,1382,1,0
+FN:115,System.Void TailSpin.SpaceGame.Web.Controllers.HomeController/<Profile>d__4::MoveNext()
+FNDA:0,System.Void TailSpin.SpaceGame.Web.Controllers.HomeController/<Profile>d__4::MoveNext()
+DA:116,0
+DA:118,0
+DA:120,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:126,0
+BRDA:116,17,0,0
+BRDA:120,70,0,0
+BRDA:116,17,1,0
+BRDA:120,70,1,0
+LF:77
+LH:0
+BRF:24
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\projects\Az-400\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web.Tests\obj\Debug\netcoreapp2.1\Tailspin.SpaceGame.Web.Tests.Program.cs
+FN:3,System.Void AutoGeneratedProgram::Main(System.String[])
+FNDA:0,System.Void AutoGeneratedProgram::Main(System.String[])
+DA:4,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\projects\Az-400\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web.Tests\DocumentDBRepository_GetItemsAsyncShould.cs
+FN:17,System.Void Tests.DocumentDBRepository_GetItemsAsyncShould::Setup()
+FNDA:5,System.Void Tests.DocumentDBRepository_GetItemsAsyncShould::Setup()
+DA:18,5
+DA:19,5
+DA:20,5
+DA:21,5
+DA:22,5
+DA:23,5
+DA:24,5
+DA:25,5
+FN:32,System.Void Tests.DocumentDBRepository_GetItemsAsyncShould::FetchOnlyRequestedGameRegion(System.String)
+FNDA:5,System.Void Tests.DocumentDBRepository_GetItemsAsyncShould::FetchOnlyRequestedGameRegion(System.String)
+DA:33,5
+DA:39,5
+DA:42,5
+DA:43,5
+DA:44,5
+DA:45,5
+DA:46,5
+DA:47,5
+DA:48,5
+DA:51,26
+DA:52,5
+LF:19
+LH:19
+BRF:0
+BRH:0
+FNF:2
+FNH:2
+end_of_record
+SF:C:\projects\Az-400\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Views\Home\Index.cshtml
+FN:2,System.Void AspNetCore.Views_Home_Index/<ExecuteAsync>d__8::MoveNext()
+FNDA:0,System.Void AspNetCore.Views_Home_Index/<ExecuteAsync>d__8::MoveNext()
+DA:3,0
+DA:57,0
+DA:58,0
+DA:60,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:67,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:75,0
+DA:81,0
+DA:84,0
+DA:87,0
+DA:90,0
+DA:94,0
+DA:95,0
+DA:97,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:117,0
+DA:119,0
+DA:120,0
+DA:122,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:136,0
+DA:137,0
+DA:139,0
+DA:141,0
+DA:143,0
+DA:145,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:151,0
+DA:152,0
+DA:154,0
+DA:155,0
+DA:156,0
+DA:157,0
+DA:165,0
+DA:166,0
+DA:168,0
+DA:170,0
+DA:171,0
+DA:172,0
+DA:175,0
+DA:176,0
+DA:177,0
+DA:178,0
+DA:179,0
+DA:180,0
+DA:182,0
+DA:183,0
+DA:184,0
+DA:185,0
+DA:211,0
+BRDA:57,138,0,0
+BRDA:57,138,1,0
+BRDA:63,264,0,0
+BRDA:63,1977,1,0
+BRDA:67,530,0,0
+BRDA:67,530,1,0
+BRDA:71,809,0,0
+BRDA:63,264,1,0
+BRDA:71,809,1,0
+BRDA:71,915,0,0
+BRDA:71,948,0,0
+BRDA:63,270,1,0
+BRDA:71,948,1,0
+BRDA:71,915,1,0
+BRDA:63,270,0,0
+BRDA:63,1977,0,0
+BRDA:94,2090,0,0
+BRDA:94,2090,1,0
+BRDA:104,2472,0,0
+BRDA:104,2472,1,0
+BRDA:109,3115,1,0
+BRDA:111,2630,0,0
+BRDA:111,2630,1,0
+BRDA:109,3115,0,0
+BRDA:119,3194,0,0
+BRDA:119,3194,1,0
+BRDA:136,3525,0,0
+BRDA:136,3525,1,0
+BRDA:147,4588,1,0
+BRDA:149,3980,0,0
+BRDA:149,3980,1,0
+BRDA:147,4588,0,0
+BRDA:165,4704,0,0
+BRDA:165,4704,1,0
+BRDA:175,5765,1,0
+BRDA:177,5157,0,0
+BRDA:177,5157,1,0
+BRDA:175,5765,0,0
+LF:72
+LH:0
+BRF:38
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\projects\Az-400\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Views\Home\Privacy.cshtml
+FN:1,System.Void AspNetCore.Views_Home_Privacy/<ExecuteAsync>d__0::MoveNext()
+FNDA:0,System.Void AspNetCore.Views_Home_Privacy/<ExecuteAsync>d__0::MoveNext()
+DA:2,0
+DA:4,0
+LF:2
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\projects\Az-400\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Views\Home\Profile.cshtml
+FN:2,System.Void AspNetCore.Views_Home_Profile/<ExecuteAsync>d__0::MoveNext()
+FNDA:0,System.Void AspNetCore.Views_Home_Profile/<ExecuteAsync>d__0::MoveNext()
+DA:3,0
+DA:5,0
+DA:15,0
+DA:20,0
+DA:21,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+LF:9
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\projects\Az-400\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Views\Shared\Error.cshtml
+FN:2,System.Void AspNetCore.Views_Shared_Error/<ExecuteAsync>d__0::MoveNext()
+FNDA:0,System.Void AspNetCore.Views_Shared_Error/<ExecuteAsync>d__0::MoveNext()
+DA:3,0
+DA:9,0
+DA:10,0
+DA:12,0
+DA:14,0
+LF:5
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\projects\Az-400\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Views\Shared\_CookieConsentPartial.cshtml
+FN:3,System.Void AspNetCore.Views_Shared__CookieConsentPartial/<ExecuteAsync>d__10::MoveNext()
+FNDA:0,System.Void AspNetCore.Views_Shared__CookieConsentPartial/<ExecuteAsync>d__10::MoveNext()
+DA:4,0
+DA:5,0
+DA:6,0
+DA:7,0
+DA:10,0
+DA:11,0
+DA:29,0
+DA:42,0
+BRDA:4,14,0,0
+BRDA:6,109,0,0
+BRDA:6,109,1,0
+BRDA:7,136,0,0
+BRDA:7,136,1,0
+BRDA:10,208,0,0
+BRDA:11,561,0,0
+BRDA:11,561,1,0
+BRDA:11,666,0,0
+BRDA:11,699,0,0
+BRDA:4,14,1,0
+BRDA:11,699,1,0
+BRDA:11,666,1,0
+BRDA:10,208,1,0
+LF:8
+LH:0
+BRF:14
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\projects\Az-400\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Views\Shared\_Layout.cshtml
+FN:15,System.Void AspNetCore.Views_Shared__Layout/<<ExecuteAsync>b__38_3>d::MoveNext()
+FNDA:0,System.Void AspNetCore.Views_Shared__Layout/<<ExecuteAsync>b__38_3>d::MoveNext()
+DA:16,0
+BRDA:16,8,0,0
+BRDA:16,158,0,0
+BRDA:16,158,1,0
+BRDA:16,575,0,0
+BRDA:16,8,1,0
+BRDA:16,575,1,0
+BRDA:16,678,0,0
+BRDA:16,711,0,0
+BRDA:16,8,2,0
+BRDA:16,711,1,0
+BRDA:16,678,1,0
+BRDA:16,961,0,0
+BRDA:16,961,1,0
+BRDA:16,1280,0,0
+BRDA:16,8,3,0
+BRDA:16,1280,1,0
+BRDA:16,1387,0,0
+BRDA:16,1420,0,0
+BRDA:16,8,4,0
+BRDA:16,1420,1,0
+BRDA:16,1387,1,0
+FN:5,System.Void AspNetCore.Views_Shared__Layout/<<ExecuteAsync>b__38_0>d::MoveNext()
+FNDA:0,System.Void AspNetCore.Views_Shared__Layout/<<ExecuteAsync>b__38_0>d::MoveNext()
+DA:6,0
+BRDA:6,8,0,0
+BRDA:6,437,0,0
+BRDA:6,8,1,0
+BRDA:6,437,1,0
+BRDA:6,540,0,0
+BRDA:6,573,0,0
+BRDA:6,8,2,0
+BRDA:6,573,1,0
+BRDA:6,540,1,0
+BRDA:6,992,0,0
+BRDA:6,8,3,0
+BRDA:6,992,1,0
+BRDA:6,1099,0,0
+BRDA:6,1132,0,0
+BRDA:6,8,4,0
+BRDA:6,1132,1,0
+BRDA:6,1099,1,0
+FN:30,System.Void AspNetCore.Views_Shared__Layout/<<ExecuteAsync>b__38_9>d::MoveNext()
+FNDA:0,System.Void AspNetCore.Views_Shared__Layout/<<ExecuteAsync>b__38_9>d::MoveNext()
+DA:31,0
+BRDA:31,8,0,0
+BRDA:31,173,0,0
+BRDA:31,173,1,0
+BRDA:31,320,0,0
+BRDA:31,8,1,0
+BRDA:31,320,1,0
+BRDA:31,423,0,0
+BRDA:31,456,0,0
+BRDA:31,8,2,0
+BRDA:31,456,1,0
+BRDA:31,423,1,0
+BRDA:31,706,0,0
+BRDA:31,706,1,0
+BRDA:31,854,0,0
+BRDA:31,8,3,0
+BRDA:31,854,1,0
+BRDA:31,961,0,0
+BRDA:31,994,0,0
+BRDA:31,8,4,0
+BRDA:31,994,1,0
+BRDA:31,961,1,0
+BRDA:31,1244,0,0
+BRDA:31,1244,1,0
+BRDA:31,1541,0,0
+BRDA:31,8,5,0
+BRDA:31,1541,1,0
+BRDA:31,1648,0,0
+BRDA:31,1681,0,0
+BRDA:31,8,6,0
+BRDA:31,1681,1,0
+BRDA:31,1648,1,0
+FN:45,System.Void AspNetCore.Views_Shared__Layout/<<ExecuteAsync>b__38_10>d::MoveNext()
+FNDA:0,System.Void AspNetCore.Views_Shared__Layout/<<ExecuteAsync>b__38_10>d::MoveNext()
+DA:46,0
+BRDA:46,8,0,0
+BRDA:46,493,0,0
+BRDA:46,8,1,0
+BRDA:46,493,1,0
+BRDA:46,596,0,0
+BRDA:46,629,0,0
+BRDA:46,8,2,0
+BRDA:46,629,1,0
+BRDA:46,596,1,0
+BRDA:46,1200,0,0
+BRDA:46,8,3,0
+BRDA:46,1200,1,0
+BRDA:46,1307,0,0
+BRDA:46,1340,0,0
+BRDA:46,8,4,0
+BRDA:46,1340,1,0
+BRDA:46,1307,1,0
+BRDA:46,1590,0,0
+BRDA:46,1590,1,0
+BRDA:46,1887,0,0
+BRDA:46,8,5,0
+BRDA:46,1887,1,0
+BRDA:46,1994,0,0
+BRDA:46,2027,0,0
+BRDA:46,8,6,0
+BRDA:46,2027,1,0
+BRDA:46,1994,1,0
+FN:23,System.Void AspNetCore.Views_Shared__Layout/<<ExecuteAsync>b__38_1>d::MoveNext()
+FNDA:0,System.Void AspNetCore.Views_Shared__Layout/<<ExecuteAsync>b__38_1>d::MoveNext()
+DA:24,0
+DA:49,0
+BRDA:24,8,0,0
+BRDA:24,173,0,0
+BRDA:24,173,1,0
+BRDA:24,352,0,0
+BRDA:24,8,1,0
+BRDA:24,352,1,0
+BRDA:24,455,0,0
+BRDA:24,488,0,0
+BRDA:24,8,2,0
+BRDA:24,488,1,0
+BRDA:24,455,1,0
+BRDA:24,1011,0,0
+BRDA:24,8,3,0
+BRDA:24,1011,1,0
+BRDA:24,1118,0,0
+BRDA:24,1151,0,0
+BRDA:24,8,4,0
+BRDA:24,1151,1,0
+BRDA:24,1118,1,0
+BRDA:24,1570,0,0
+BRDA:24,8,5,0
+BRDA:24,1570,1,0
+BRDA:24,1677,0,0
+BRDA:24,1710,0,0
+BRDA:24,8,6,0
+BRDA:24,1710,1,0
+BRDA:24,1677,1,0
+LF:6
+LH:0
+BRF:123
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:C:\projects\Az-400\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Views\_ViewStart.cshtml
+FN:1,System.Void AspNetCore.Views__ViewStart/<ExecuteAsync>d__0::MoveNext()
+FNDA:0,System.Void AspNetCore.Views__ViewStart/<ExecuteAsync>d__0::MoveNext()
+DA:2,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
